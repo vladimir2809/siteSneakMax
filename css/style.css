@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Intro Book';
+    src: url(../fonts/Intro-Book.ttf);
+}
+@font-face{
+    font-family: 'Intro Regular';
+    src: url(../fonts/Intro-Regular.ttf);
+}
+@font-face{
+    font-family: 'Intro Bold';
+    src: url(../fonts/Intro-Bold.ttf);
+}
+body {
+    margin: 0;
+}
+li {
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    /*text-align: left;*/
+
+}
+h1{
+    font-family: Intro Regular;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    /*text-align: left;*/
+}
+h2{
+    font-family: Intro Bold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    /*text-align: left;*/
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #484283;
+}
+header #divHead{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1180px;
+    height: 44px;
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+    background-color: #484283;
+    color: white;
+}
+header #divHead h2{
+   /* margin-top: 0*/;
+}
+header #divHead ul{
+    margin: 0 0 0 180px;
+}
+header #divHead li{
+    display: inline-block;
+    margin-left: 40px;
+    list-style-type: none;
+  /*  vertical-align: baseline;*/
+
+}
