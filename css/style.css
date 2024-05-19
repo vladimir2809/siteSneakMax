@@ -169,9 +169,15 @@ header #divHeadNav li:first-child{
     height: 1257px;
     margin: 60px auto 0 auto;
 }
-/* ןמהבמנ ןאנלוענמג*/
-#divCatalogFlex{
+#divCatalogCont h2{
+   
+    margin-bottom: 40px;
 }
+#divCatalogFlex{
+    display: flex;
+}
+/* ןמהבמנ ןאנaלוענמג*/
+
 #divCatalogFlex #divSelectionParam{
     width: 280px;
     height: 597px;
@@ -183,6 +189,9 @@ header #divHeadNav li:first-child{
 }
 #divCatalogFlex #divSelectionParam #divSelectionParam2 h3{
     margin: 0;
+}
+#divCatalogFlex #divSelectionParam #divSelectionParam2 p{
+    margin: 10px 0; ;
 }
 #divPriceCont{
     display: flex;
@@ -208,12 +217,91 @@ header #divHeadNav li:first-child{
 #priceMin{
     border-right: 1px solid #B2B5BB;
 }
-/*.max{
-    position: relative;
-    top: -20px;
-}*/
-/* גûבמנ עמגאנא*/
+#divSelectionParam2 #divCheckbox{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 25px;
+}
+#divSelectionParam2 #divCheckbox .checkboxGender{
+    width: 97px;
+}
+#divSelectionParam2 table{
+    border-collapse: collapse;
+}
+#divSelectionParam2 table td{
+    width: 80px;
+    height: 57px;
+    border-collapse: collapse;
+    border: 1px solid #DBBBA9;
+    font-family: Intro Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
 
+    /* padding: 0;*/
+}
+#buttonApplyParam{
+    width: 249px;
+    height: 60px;
+    background-color: #444B58;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-family: Intro Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+#divSelectionParam2 #resetParam{
+    position: relative;
+    width: 72px;
+    height: 16px;
+    left: 88px;
+    top: 20px;
+    font-family: Intro Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+
+}
+/* גûבמנ עמגאנא*/
+#divSelectionProd{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    width: 880px;
+    height: 1187px;
+
+    margin-left: 20px;
+}
+#divSelectionProd .product{
+    width: 280px;
+    height: 349px;
+}
+#divSelectionProd .product img{
+}
+#divSelectionProd .product p{
+    margin: 10px 0;
+    font-family: Intro Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+#divSelectionProd .product h4{
+    margin: 0;
+    font-family: Intro Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
 /*
     ÊÎÍÅÖ ÑÅÊÖÈÈ ÊÀÒÀËÎÃ
 */
