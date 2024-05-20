@@ -52,6 +52,25 @@ p{
     text-align: left;
 
 }
+.buttonRed{
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: #F14F4F;
+    border: 1px solid #F14F4F;
+    font-family: Intro Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+.buttonRed:hover{
+    background-color:#CC4949;
+}
+.buttonRed:active{
+    background-color:#8C2828;
+}
 header{
     position: fixed;
     width: 100%;
@@ -134,14 +153,14 @@ header #divHeadNav li:first-child{
     width: 480px;
     line-height: 22px;
 }
-#divLogo #divLogoCont #divLogoText button{
+/*#divLogo #divLogoCont #divLogoText button{
     width: 250px;
     height: 60px;
     margin-top: 40px;
     background-color: #F14F4F;
     border: 1px solid #F14F4F;
    
-}
+}*/
 #divLogo #divLogoCont #divLogoBigText{
     position: relative;
     left: 150px;
@@ -163,6 +182,7 @@ header #divHeadNav li:first-child{
 */
 #divCatalog{
     width: 100%;
+    min-height: 1357px;
 }
 #divCatalogCont{
     width: 1180px;
@@ -270,23 +290,34 @@ header #divHeadNav li:first-child{
 
 }
 /* ‚˚·Ó ÚÓ‚‡‡*/
-#divSelectionProd{
+#divSelectionProd {
+   /* display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;*/
+    width: 880px;
+    min-height: 1257px;
+
+    margin-left: 20px;
+}
+#divSelectionProd>div{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 20px;
     width: 880px;
-    height: 1187px;
+    height: 1180px;
 
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
-#divSelectionProd .product{
+#divSelectionProd>div .product{
     width: 280px;
-    height: 349px;
+    height: 359px;
+    /*background-color: #cccccc;*/
 }
-#divSelectionProd .product img{
+#divSelectionProd>div .product img{
 }
-#divSelectionProd .product p{
+#divSelectionProd>div .product p{
     margin: 10px 0;
     font-family: Intro Book;
     font-size: 16px;
@@ -294,7 +325,7 @@ header #divHeadNav li:first-child{
     line-height: 16px;
     text-align: left;
 }
-#divSelectionProd .product h4{
+#divSelectionProd>div .product h4{
     margin: 0;
     font-family: Intro Regular;
     font-size: 20px;
@@ -302,6 +333,53 @@ header #divHeadNav li:first-child{
     line-height: 20px;
     text-align: left;
 }
+#divSelectionProd .buttonRed{
+    display: block;
+    margin: 10px auto 10px auto;
+}
 /*
      ŒÕ≈÷ —≈ ÷»»  ¿“¿ÀŒ√
+*/
+/*
+    —≈ ÷»ﬂ "œ¿–” —ÀŒ¬ Œ Õ¿—"
+*/
+
+#divPairWordAboutUs{
+    width: 100%;
+    height: 580px;
+    background-color: #484283;
+}
+#divPairWordCont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 580px;
+    /*margin: 0 auto 0 auto;*/
+}
+#wordAboutUs{
+    width: 450px;
+    margin-left: -200px;
+    margin-top: 180px;
+    color: white;
+}
+#wordAboutUs p{
+    width: 380px;
+    height: 110px;
+}
+#wordAboutUs blockquote{
+    font-family: Intro Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: right;
+}
+#wordAboutUs blockquote span{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    font-size: 40px;
+    line-height: 10px;
+}
+/*
+     ŒÕ≈÷  —≈ ÷»» "œ¿–” —ÀŒ¬ Œ Õ¿—"
 */
