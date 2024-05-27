@@ -13,6 +13,13 @@
 body {
     margin: 0;
 }
+a{
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: white;
+}
 li {
     font-family: Intro Book;
     font-size: 14px;
@@ -427,7 +434,15 @@ header #divHeadNav li:first-child{
     padding-top: 20px;
  
 }
-
+#divSelectionForYouCont h2{
+    color:#444B58;
+}
+#divSelectionForYouCont p{
+    color: #808080;
+}
+#divSelectionForYouCont h3{
+    color: #444B58;
+}
 #divTypeSneakersFlex{
     display: flex;
     flex-wrap: wrap;
@@ -463,7 +478,12 @@ header #divHeadNav li:first-child{
     background-color: #484283;
     margin-top: 60px;
 }
-#divOurTeam>img{
+#circlesRed{
+    width: 100%; /*1300px;*/
+    height: 560px;
+    margin: 0 auto 0 auto;
+}
+#divOurTeam>#circlesRed>img{
    float: right;
 }
 #divOurTeamCont{
@@ -474,7 +494,10 @@ header #divHeadNav li:first-child{
     color: white;
 }
 #divOurTeamCont>h2{
+    position: relative;
+    top: -560px;
     margin-bottom: 40px;
+
 }
 #divOurTeamFlex{
      display: flex;
@@ -483,7 +506,7 @@ header #divHeadNav li:first-child{
      align-items: flex-start;
      gap: 40px 20px;
      width: 1180px;
-     top: -420px;
+     top: -560px;
  }
 .memberTeam{
    
@@ -612,3 +635,116 @@ header #divHeadNav li:first-child{
 /*
      ŒÕ≈÷ —≈ ÷»»  ŒÕ“¿ “€
 */
+/*  
+    —≈ ÷»ﬂ œŒ—À≈ƒÕ»… ¡ÀŒ 
+*/
+
+#divLastBlok{
+    width: 100%;
+    height: 420px;
+}
+#divLastBlokCont{
+    width: 1120px;
+    height: 413px;
+    margin: 71px auto 0 auto;
+}
+#divLastBlokFlex{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+#divEndForm{
+    width: 380px;
+    height: 402px;
+    background-color:#484283;
+}
+#divEndForm h2{
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+#divEndForm p{
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+#divEndForm form/*>div*/{
+    width: 350px;
+    margin: 0 auto 0 auto;
+}
+#divEndForm input[type=text]{
+    width: 332px;
+    height: 60px;
+    margin-bottom: 10px;
+    font-family: Intro Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color:#B2B5BB;
+
+}
+#divEndForm button{
+    width: 340px;
+}
+#divInstagram{
+    width: 680px;
+    height: 337px;
+}
+#divLogoInstagram{
+    width: 157px;
+    margin: 0 auto 0 auto;
+}
+#divInstagramFlex{
+    display: flex;
+    gap: 15px;
+}
+#divInstagramFlex .twoImage{
+    width: 160px;
+}
+#divInstagramFlex .twoImage img{
+    margin-bottom: 10px;
+}
+/*
+     ŒÕ≈÷ —≈ ÷»» œŒ—À≈ƒÕ»… ¡ÀŒ 
+*/
+/* FOOTER*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: 1px;
+    background-color: #444B58;
+    margin-top: 82px;
+    z-index: 1000;
+}
+footer #divHeadFooter{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1185px;
+    height: 70px;
+    margin: 0 auto 0 auto;
+  /*  padding-top: 10px;*/
+    border-bottom: 1px solid white;
+    background-color: #444B58;
+    color: white;
+}
+footer #divHeadFooter h2{
+   /* margin-top: 0*/;
+}
+footer #divHeadFooter ul{
+    margin: 0 0 0 180px;
+}
+footer #divHeadFooter li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -20px; 
+    list-style-type: none;
+  /*  vertical-align: baseline;*/
+}
+footer #divHeadFooter li:first-child{
+    margin-top: 1px;
+    /*color: red;*/
+}

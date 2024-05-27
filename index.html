@@ -14,12 +14,12 @@
         <div id="divHeadNav">
             <h2>SneakMax</h2>
             <ul>
-                <li>Каталог</li>
-                <li>О нас</li>
-                <li>Подбор товара</li>
-                <li>Наша команда</li>
-                <li>Доставка и оплата</li>
-                <li>Контакты</li>
+                <a href="#divCatalog"><li>Каталог</li></a>
+                <a href="#divPairWordAboutUs"><li>О нас</li></a>
+                <a href="#divSelectionForYou"><li>Подбор товара</li></a>
+                <a href="#divOurTeam"><li>Наша команда</li></a>
+                <a  href="#"> <li>Доставка и оплата</li></a>
+                <a href="#contact"><li>Контакты</li></a>
                 <li>
                     <!--Корзина --><img src="img/basket.svg">
                     <!--<div id="countBasket">1</div>-->
@@ -103,7 +103,7 @@
                     </div>
 
 
-                </div> 
+                </div>
                 <div id="divSelectionProd">
                     <div>
                         <div class="product">
@@ -176,8 +176,8 @@
                             <img src="img/product.png">
                             <p>Кроссовки Nike Air Force 1 '07 QS</p>
                             <h4>11 000 р</h4>
-                        </div>--> 
-                        
+                        </div>-->
+
                     </div>
                     <button class="buttonRed">Показать еще</button>
                 </div>
@@ -193,7 +193,7 @@
                 <h2>Пара слов о нас</h2>
                 <p>
                     Спорт держит нас в форме. Учит дисциплине. Объединяет нас. Через спорт мы можем менять жизни.
-                    В том числе с помощью воодушевляющих историй спортсменов. 
+                    В том числе с помощью воодушевляющих историй спортсменов.
                     Чтобы помочь тебе подняться и двигаться вперед.
 
                 </p>
@@ -201,7 +201,7 @@
             </div>
             <div id="divImgAboutUs">
                 <img src="img/aboutUs.png">
-            </div>  
+            </div>
         </div>
     </div>
     <div id="divSelectionForYou">
@@ -259,13 +259,15 @@
                     1 из 3
                 </p>
                 <!--<div>-->
-                    <button class="buttonWhite"id="btnNextStep">Следуюший шаг</button>
+                <button class="buttonWhite" id="btnNextStep">Следуюший шаг</button>
                 <!--</div>-->
             </div>
         </div>
     </div>
     <div id="divOurTeam">
-        <img src="img/figureCirclesred.svg">
+        <div id="circlesRed">
+            <img src="img/figureCirclesRed.svg">
+        </div>
         <div id="divOurTeamCont">
             <h2>Наша команда</h2>
             <div id="divOurTeamFlex">
@@ -305,14 +307,14 @@
                     <p>Администратор</p>
                 </div>
             </div>
-         
+
         </div>
     </div>
     <div id="FAQ">
         <h2>Часто задаваемые вопросы</h2>
         <div id="questions">
             <hr>
-            <div  id="firstQuestion">
+            <div id="firstQuestion">
                 <div class="QFlex" id="firstQuestionFlex">
                     <h4>Вопрос 1</h4>
                     <div><img src="img/cross.svg"></div>
@@ -341,7 +343,7 @@
                         ГЛАВНЫЙ ОФИС
                         <span class="tooltip">
                             <button class="tooltip-toggle" type="button">
-                                <img  class="tooltip-icon" src="img/iconTooltip.svg">
+                                <img class="tooltip-icon" src="img/iconTooltip.svg">
                                 <!--<svg class="tooltip-icon" width="9" height="9" viewBox="0 0 1 9" fill="currentColor"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#a)">
@@ -372,5 +374,73 @@
             </div>
         </div>
     </div>
+    <div id="divLastBlok">
+        <div id="divLastBlokCont">
+            <div id="divLastBlokFlex">
+                <div id="divEndForm">
+                    <h2>Есть вопросы?</h2>
+                    <p>
+                        Заполните форму и наш<br> менеджер свяжется с вами
+                    </p>
+                    <form>
+                        <!-- <div>-->
+                        <input type="text" value="&nbsp;&nbsp;Ваше имя">
+                        <input type="text" value="&nbsp;&nbsp;Номер телефона">
+                        <button class="buttonRed">Отправить</button>
+                        <!-- </div>-->
+                    </form>
+                </div>
+                <div id="divInstagram">
+                    <div id="divLogoInstagram">
+                        <img src="img/instagram_logo1.png">
+                    </div>
+                    <div id="divInstagramFlex">
+                        <div class="twoImage">
+                            <img src="img/rectangle1.jpg">
+                            <img src="img/rectangle2.jpg">
+                        </div>
+                        <div class="oneImage">
+                            <img src="img/rectangle3.jpg">
+                        </div>
+                        <div class="twoImage">
+                            <img src="img/rectangle4.jpg">
+                            <img src="img/rectangle5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="divHeadFooter">
+            <h2>SneakMax</h2>
+            <ul>
+                <a href="#divCatalog">
+                <li>Каталог</li></a>
+                <a href="#divPairWordAboutUs">
+                <li>О нас</li></a>
+                <a href="#divSelectionForYou">
+                <li>Подбор товара</li></a>
+                <a href="#divOurTeam">
+                <li>Наша команда</li></a>
+                <a href="#">
+                <li>Доставка и оплата</li></a>
+                <a href="#contact">
+                <li>Контакты</li></a>
+                <!--   <li>Каталог</li>
+       <li>О нас</li>
+       <li>Подбор товара</li>
+       <li>Наша команда</li>
+       <li>Доставка и оплата</li>
+       <li>Контакты</li>-->
+                <!--<li>-->
+                <!--Корзина --><!--<img src="img/basket.svg">-->
+                <!--<div id="countBasket">1</div>-->
+                <!--</li>-->
+
+            </ul>
+            <!--<div id="countBasket">1</div>-->
+        </div>
+    </footer>
 </body>
 </html>
