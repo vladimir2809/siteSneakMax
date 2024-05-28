@@ -659,7 +659,7 @@ header #divHeadNav li:first-child{
     background-color:#484283;
 }
 #divEndForm h2{
-    padding-top: 40px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
     color: white;
@@ -682,7 +682,7 @@ header #divHeadNav li:first-child{
     font-weight: 400;
     line-height: 22.4px;
     text-align: left;
-    color:#B2B5BB;
+    color: black;/*#B2B5BB;*/
 
 }
 #divEndForm button{
@@ -709,7 +709,7 @@ header #divHeadNav li:first-child{
 /*
      ŒÕ≈÷ —≈ ÷»» œŒ—À≈ƒÕ»… ¡ÀŒ 
 */
-/* FOOTER*/
+/*          FOOTER*/
 footer{
     position: relative;
     width: 100%;
@@ -747,4 +747,101 @@ footer #divHeadFooter li{
 footer #divHeadFooter li:first-child{
     margin-top: 1px;
     /*color: red;*/
+}
+/*           END FOOTER           */
+
+/*   ÃŒƒ¿À‹Õ€≈ Œ Õ¿*/
+/*ππππππππππππππππππππππππππππππππππππππππππ*/
+/*          Œ ÕŒ œ–Œƒ” “*/
+#divModalProduct{
+  /*  position: fixed;
+    left: 50%;
+    top: 50%;
+  
+    transform: translate(-50%,-50%); */
+    position: absolute;
+    left: 50%;
+    top: 140px;
+
+    width: 1140px;
+    height:1313px;
+    transform: translate(-50%,-0%);
+    /*margin: 0 auto 0 auto;*/
+    background-color: white;
+    z-index: 2000;
+}
+#divModalProductCont{
+    margin: 40px;
+}
+#divModalProductFlex{
+    display: flex;
+}
+
+#divModalProductFlex #divProductLeft{
+
+}
+
+#divModalProductFlex #divProductLeft #divLineUp{
+    display: flex;
+    gap: 20px;
+}
+#divModalProductFlex #divProductLeft #divLineUp img{
+    width: 70px;
+    height: 75px;
+}
+#divModalProductFlex #divProductLeft h3{
+}
+#divModalProductFlex #divProductLeft #divProductDescription{
+    width: 430px;
+    height: 68px;
+}
+#divModalProductFlex #divProductRight{
+
+}
+#divModalProductFlex #divProductRight #divArticleAndCount{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 20px;
+}
+#divModalProductFlex #divProductRight #divArticle{
+    display: flex;
+    gap: 10px;
+    width: 113px;
+    height: 18px;
+}
+#divModalProductFlex #divProductRight #divArticleAndCount p{
+    margin-top: 0px;
+    color: #B2B5BB;
+}
+#divModalProductFlex #divProductRight #divCount span{
+   /* font-weight: bold;*/
+    color: #444B58;
+}
+#divModalProductFlex #divProductRight h4{
+    width: 430px;
+    height: 68px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Intro Book;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+}
+#divModalProductFlex #divProductRight #divRating span{
+    font-size: 20px;
+    color: #F14F4F;
+}
+#divModalProductFlex #divProductRight #divSelectSize{
+    display: flex;
+    gap: 20px;
+}
+#divModalProductFlex #divProductRight #divSelectSize .divSize{
+    width: 70px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 4px;
+    line-height: 30px;
+    text-align: center;
 }
