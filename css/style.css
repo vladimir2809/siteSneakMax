@@ -757,8 +757,9 @@ footer #divHeadFooter li:first-child{
   /*  position: fixed;
     left: 50%;
     top: 50%;
-  
+    
     transform: translate(-50%,-50%); */
+    display: none;
     position: absolute;
     left: 50%;
     top: 140px;
@@ -775,6 +776,7 @@ footer #divHeadFooter li:first-child{
 }
 #divModalProductFlex{
     display: flex;
+    gap: 20px;
 }
 
 #divModalProductFlex #divProductLeft{
@@ -810,7 +812,7 @@ footer #divHeadFooter li:first-child{
     width: 113px;
     height: 18px;
 }
-#divModalProductFlex #divProductRight #divArticleAndCount p{
+#divModalProductFlex #divProductRight #divArticleAndCount #selectSize{
     margin-top: 0px;
     color: #B2B5BB;
 }
@@ -840,8 +842,175 @@ footer #divHeadFooter li:first-child{
 #divModalProductFlex #divProductRight #divSelectSize .divSize{
     width: 70px;
     height: 32px;
-    border: 1px solid black;
+    border: 1px solid #B2B5BB;
     border-radius: 4px;
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    /*line-height: 14px;*/
+    /*text-align: left;*/
+
     line-height: 30px;
     text-align: center;
+    color: #444B58;
+
+}
+
+#divModalProductFlex #divProductRight #divPriceFlex{
+    display: flex;
+    gap: 32px;       
+}
+#divModalProductFlex #divProductRight #divPriceFlex h2{
+    margin-top: 40px;
+}
+#divModalProductFlex #divProductRight #divPriceFlex p{
+    
+     margin-top: 48px;
+    color:#B2B5BB;
+
+}
+#divModalProductFlex #divProductRight button{
+    width: 442px;
+    margin-top: 48px;
+}
+#divModalProductFlex #divProductRight ul { 
+    padding-left: 1px;
+}
+#divModalProductFlex #divProductRight li {
+    list-style-type: none; /* Убираем маркеры у списка */
+    margin-top: 10px;
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+
+}
+#divModalProductFlex #divProductRight li:before {
+ /*   width: 20px;
+    height: 20px;*/
+    content: url('../img/checkmark.svg'); /* Добавляем в качестве маркера символ */
+    margin-right: 10px;
+}
+#divModalProductFlex #divProductRight p{
+    margin: 10px 0;
+}
+#divGrayBar{
+    width: 1060px;
+    height: 456px;
+    margin-top: 40px;
+    background-color: #C4C4C4;
+}
+    
+/*          ОКНО КОРЗИНА  */
+#divBasket{
+    width: 480px;
+    height: 375px;
+    background-color: white;
+   
+}   
+#divBasket #divProductInBasket{
+     width: 480px;
+     height: 325px;
+     overflow-y: auto;
+}
+#divBasket .divProductInBasketFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 480px;
+    height: 120px;
+  /*  margin-top: 15px;*/
+}
+#divBasket .divProductInBasketFlex:first-child{
+    background-color: #CCD9F233;
+}
+#divBasket .divProductInBasketFlex img:first-child{
+    width: 100px;
+    height: 100px;
+}
+#divBasket .divProductInBasketFlex .priceInBasket{
+    font-family: Intro Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+#divBasket .divProductInBasketFlex .descriptionInBasket{
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+#divBasket .infoProductInBasket{
+    margin-left: -25px;
+}
+#divTotalbBasket{
+    position: relative;
+    width: 480px;
+    height: 91px;
+    top: -23px;
+    background-color: #FFFFFF/*88*/;
+    z-index:3000;
+   
+}
+#divTotalBasketFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 91px;
+}
+#divTotalPriceBasket{
+    width: 72px;
+    height: 50px;
+    margin-left: 24px;
+}
+#divTotalPriceBasket p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+#divTotalPriceBasket h4{
+    margin-top: 10px;
+    font-family: Intro Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+#divTotalBasketFlex button{
+    width:  239px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Работает в Firefox */
+/*#divProductInBasket {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}*
+
+/* Работает в Chrome, Edge и Safari */
+#divProductInBasket::-webkit-scrollbar {
+    position: relative;
+    left: -100px;
+    width: 4px;  /* ширина всей полосы прокрутки */
+    padding-right: 50px;
+
+}
+
+#divProductInBasket::-webkit-scrollbar-track {
+  background: #cccccc;/* цвет зоны отслеживания */
+}
+
+#divProductInBasket::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa; /* цвет бегунка */
+  border-radius: 20px;
+  border: 3px solid #AAAAAA;
 }
