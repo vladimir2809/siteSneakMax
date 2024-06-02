@@ -1014,3 +1014,133 @@ footer #divHeadFooter li:first-child{
   border-radius: 20px;
   border: 3px solid #AAAAAA;
 }
+
+/* ÌÎÄÀËÜÍÎÅ ÎÊÍÎ ÎÔÎÐÌËÅÍÈÅ ÇÀÊÀÇÀ */
+
+#divPlacingOrder{
+    width: 580px;
+    height: 902px;  
+   /* background-color: #dddddd;*/
+}
+#divPlacingOrderCont{
+    margin: 40px;
+}
+#divPlacingOrderHeadFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#divPlacingOrderHeadFlex h4{
+    font-family: Intro Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #444B58; 
+
+}
+#divPlacingOrderHeadFlex p{
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: right;
+    color: #B2B5BB;
+}
+
+#divCompositionOrder{
+    width: 500px;
+    height: 433px;
+    border: 1px solid #D9D9D9;
+}
+#divCompositionOrderCont{
+    margin: 30px;
+}
+#divCompositionOrderCont>p{
+    font-family: Intro Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+#divCompositionOrderCont>p>span{
+    font-family: Intro Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+#divCompositionOrderCont>#down_arrow{
+    font-family: Intro Book;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+.divProductFlex{
+    display: flex;
+    align-items: center;
+    width: 440px;
+    height: 80px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.divProductFlex img{
+    width: 80px;
+    height: 46px;
+}
+.divProductFlex .infoProductOrder{
+    margin: 0 7px;
+}
+.divProductFlex .infoProductOrder p:first-child{
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #444B58;
+
+}
+.divProductFlex .infoProductOrder p:last-child{
+    font-family: Intro Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #444B58;
+}
+.divProductFlex>p{
+    font-family: Intro Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: right;
+    color: #B2B5BB;
+
+}
+#divPlacingOrder form{
+}
+#divPlacingOrder form input[type=text]:first-child{
+    margin-top: 40px;
+}
+#divPlacingOrder form input[type=text]{
+    width: 496px;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #F6F6F6;
+    border-radius: 4px;
+    background-color: #F6F6F6;
+}
+#divPlacingOrder form input[type=text]::placeholder{
+    padding-left: 20px;
+    font-family: Intro Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #B2B5BB;
+}
+#divPlacingOrder form button{
+    margin-top: 30px;
+}
