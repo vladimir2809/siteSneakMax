@@ -14,12 +14,18 @@
         <div id="divHeadNav">
             <h2>SneakMax</h2>
             <ul>
-                <a href="#divCatalog"><li>Каталог</li></a>
-                <a href="#divPairWordAboutUs"><li>О нас</li></a>
-                <a href="#divSelectionForYou"><li>Подбор товара</li></a>
-                <a href="#divOurTeam"><li>Наша команда</li></a>
-                <a  href="#"> <li>Доставка и оплата</li></a>
-                <a href="#contact"><li>Контакты</li></a>
+                <a href="#divCatalog">
+                <li>Каталог</li></a>
+                <a href="#divPairWordAboutUs">
+                <li>О нас</li></a>
+                <a href="#divSelectionForYou">
+                <li>Подбор товара</li></a>
+                <a href="#divOurTeam">
+                <li>Наша команда</li></a>
+                <a href="#">
+                <li>Доставка и оплата</li></a>
+                <a href="#contact">
+                <li>Контакты</li></a>
                 <li>
                     <!--Корзина --><img src="img/basket.svg">
                     <!--<div id="countBasket">1</div>-->
@@ -185,8 +191,8 @@
         </div>
     </div>
 
-<!--            MODAL window-->
-<!--                              WINDOW PRODUCT-->
+    <!--            MODAL window-->
+    <!--                              WINDOW PRODUCT-->
     <div id="divModalProduct">
         <div id="divModalProductCont">
             <div id="divModalProductFlex">
@@ -204,7 +210,7 @@
                     <div id="divProductDescription">
                         <p>
                             Кроссовки Nike Blazer Mid '77 Vintage Suede с винтажной подошвой возрождают стиль баскетбольных моделей
-                            Nike прошлого, 
+                            Nike прошлого,
                             создавая впечатление, что они хранились в шкафу долгие годы.
                         </p>
                     </div>
@@ -269,7 +275,7 @@
         </div>
     </div>
 
-<!--               WINDOW BASKET-->
+    <!--               WINDOW BASKET-->
     <div id="divBasket">
         <div id="divProductInBasket">
             <div class="divProductInBasketFlex">
@@ -309,25 +315,25 @@
             </div>-->
         </div>
         <div id="divTotalbBasket">
-           <div id="divTotalBasketFlex">
-               <div id="divTotalPriceBasket">
-                   <p>Итого</p>
-                   <h4>25 789</h4>
-               </div>
-               <button class="buttonRed">Перейти в корзину</button>
-           </div>
+            <div id="divTotalBasketFlex">
+                <div id="divTotalPriceBasket">
+                    <p>Итого</p>
+                    <h4>25 789</h4>
+                </div>
+                <button class="buttonRed">Перейти в корзину</button>
+            </div>
         </div>
     </div>
 
 
-<!-- WINDOW OOORDEEER-->
+    <!-- WINDOW OOORDEEER-->
 
 
     <div id="divPlacingOrder">
         <div id="divPlacingOrderCont">
             <div id="divPlacingOrderHeadFlex">
                 <h4>Оформлние заказа</h4>
-                <p>заказ 3456 67</p>         
+                <p>заказ 3456 67</p>
             </div>
             <div id="divCompositionOrder">
                 <div id="divCompositionOrderCont">
@@ -394,6 +400,9 @@
             </div>
         </div>
     </div>
+
+    <!-- FRAME    ПОДБОР КРОССОВОК 0-->
+
     <div id="divSelectionForYou">
         <div id="divSelectionForYouCont">
             <h2>Мы подберем идеальную пару для вас</h2>
@@ -443,7 +452,7 @@
                     <label for="checkboxTypeSneakers6" class="labelForCheckbox">кеды</label>
                 </div>
             </div>
-            <hr>
+            <hr class="hr2">
             <div id="divNextStepFlex">
                 <p>
                     1 из 3
@@ -454,6 +463,85 @@
             </div>
         </div>
     </div>
+
+
+    <!-- FRAME    ПОДБОР КРОССОВОК 1-->
+
+
+
+    <div class="selectFrame" id="divSelectionFrame1">
+        <div class="divSelectionFrameCont">
+            <h2>Мы подберем идеальную пару для вас</h2>
+            <p>Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями </p>
+            <hr>
+            <h3>Какой размер вам подойдет?</h3>
+            <div id="divSizeSelectFlex">
+                <div class="checkboxFrame1">
+                    <input type="checkbox" class="custom-checkbox" id="checkboxTypeSize1">
+                    <label for="checkboxTypeSize1"></label>
+                    <label for="checkboxTypeSize1" class="labelForCheckbox">менее 36</label>
+                </div>
+                <div class="checkboxFrame1">
+                    <input type="checkbox" class="custom-checkbox" id="checkboxTypeSize2">
+                    <label for="checkboxTypeSize2"></label>
+                    <label for="checkboxTypeSize2" class="labelForCheckbox">36-38</label>
+                </div>
+                <div class="checkboxFrame1">
+                    <input type="checkbox" class="custom-checkbox" id="checkboxTypeSize3">
+                    <label for="checkboxTypeSize3"></label>
+                    <label for="checkboxTypeSize3" class="labelForCheckbox">39-41</label>
+                </div>
+                <div class="checkboxFrame1">
+                    <input type="checkbox" class="custom-checkbox" id="checkboxTypeSize4">
+                    <label for="checkboxTypeSize4"></label>
+                    <label for="checkboxTypeSize4" class="labelForCheckbox">41-44</label>
+                </div>
+                <div class="checkboxFrame1">
+                    <input type="checkbox" class="custom-checkbox" id="checkboxTypeSize5">
+                    <label for="checkboxTypeSize5"></label>
+                    <label for="checkboxTypeSize5" class="labelForCheckbox">45 и более</label>
+                </div>
+            </div>
+            <img src="img/imageFrameSelect1.png">
+            <hr class="hr2">
+            <div class="nextStepInSelectFrameFlex">
+                <p>
+                    1 из 3
+                </p>
+                <!--<div>-->
+                <button class="buttonWhite" id="btnNextStep">Следуюший шаг</button>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FRAME    ПОДБОР КРОССОВОК 2-->
+
+    <div class="selectFrame" id="divSelectionFrame2">
+        <div class="divSelectionFrameCont">
+            <h2>Мы подберем идеальную пару для вас</h2>
+            <p>Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями </p>
+            <hr>
+            <h3>Уточните какие-либо моменты</h3>
+            <textarea placeholder="Введите сообщение"></textarea>
+           <!-- <form>
+                <input type="text" id="inputSelectFrame2" placeholder="введите сообщение">
+            </form>-->
+            <hr class="hr2">
+            <div class="nextStepInSelectFrameFlex">
+                <p>
+                    1 из 3
+                </p>
+                <!--<div>-->
+                <button class="buttonWhite" id="btnNextStep">Следуюший шаг</button>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <!--  ФРАМЕ НАША КОМАНДА-->
+
+
     <div id="divOurTeam">
         <div id="circlesRed">
             <img src="img/figureCirclesRed.svg">
@@ -618,11 +706,11 @@
                 <a href="#contact">
                 <li>Контакты</li></a>
                 <!--   <li>Каталог</li>
-       <li>О нас</li>
-       <li>Подбор товара</li>
-       <li>Наша команда</li>
-       <li>Доставка и оплата</li>
-       <li>Контакты</li>-->
+                <li>О нас</li>
+                <li>Подбор товара</li>
+                <li>Наша команда</li>
+                <li>Доставка и оплата</li>
+                <li>Контакты</li>-->
                 <!--<li>-->
                 <!--Корзина --><!--<img src="img/basket.svg">-->
                 <!--<div id="countBasket">1</div>-->
