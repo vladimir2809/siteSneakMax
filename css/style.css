@@ -1224,3 +1224,63 @@ footer #divHeadFooter li:first-child{
 #divSelectionFrame2 .hr2{
     margin: 20px 0 20px 0;
 }
+
+/* ÔÐÀÌÅ 3*/
+
+#divSelectionReady .divSelectionFrameCont>h2{
+    margin-top: 80px;
+}
+#divSelectionReady .divSelectionFrameCont>p{
+    color:#DBBBA9
+}
+#divSelectionReady .hrColor{
+    border: 1px solid #DBBBA9;
+    border-bottom-width: 0
+   /* background-color:#DBBBA9;*/
+}
+#divSelectionReady #divGetOffer{
+    margin-top: 20px;
+}
+#divSelectionReady #divGetOfferFloat{
+    /*display:flex;
+    align-items: stretch;
+    justify-content: space-around;*/
+    background-color: #DBBBA9; 
+    width: 695px;
+    height: 399px;
+
+}
+#divSelectionReady #divGetOffer #divGetOfferFloat #divGetOfferCont{
+    width: 500px;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+#divGetOfferCont>h2{
+    margin: 0px;
+    color: white;
+}
+#divGetOfferCont>p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+#divSelectionReady #divGetOfferCont form input[type=text]{
+   
+    width: 500px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#divSelectionReady #divGetOfferCont form input[type=text]:first-child{
+    margin-bottom: 10px;
+}
+#divSelectionReady #divGetOfferCont form input[type=text]:last-of-type{
+    margin-bottom: 20px;
+}
+#divSelectionReady #divGetOfferFloat img{
+    float: right;
+    position:relative;
+    left: 110px;
+    top: -360px;
+/*    margin-left: 350px;*/
+}
