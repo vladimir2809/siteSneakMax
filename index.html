@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/TwoRangers.css">
     <link rel="stylesheet" href="css/styleCheckbox.css">
     <link rel="stylesheet" href="css/styleTooltip.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
                 <li>Доставка и оплата</li></a>
                 <a href="#contact">
                 <li>Контакты</li></a>
-                <li>
+                <li id="basketIcon">
                     <!--Корзина --><img src="img/basket.svg">
                     <!--<div id="countBasket">1</div>-->
                 </li>
@@ -314,13 +315,13 @@
                 <img src="img/trash1.svg">
             </div>-->
         </div>
-        <div id="divTotalbBasket">
+        <div id="divTotalBasket">
             <div id="divTotalBasketFlex">
                 <div id="divTotalPriceBasket">
                     <p>Итого</p>
                     <h4>25 789</h4>
                 </div>
-                <button class="buttonRed">Перейти в корзину</button>
+                <button class="buttonRed" id="buttonBasket">Перейти в корзину</button>
             </div>
         </div>
     </div>

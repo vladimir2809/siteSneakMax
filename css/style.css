@@ -766,14 +766,14 @@ footer #divHeadFooter li:first-child{
     display: none;
     position: absolute;
     left: 50%;
-    top: 140px;
+    top: 600px;
 
     width: 1140px;
     height:1313px;
     transform: translate(-50%,-0%);
     /*margin: 0 auto 0 auto;*/
     background-color: white;
-    z-index: 2000;
+    z-index: 900;
 }
 #divModalProductCont{
     margin: 40px;
@@ -908,9 +908,12 @@ footer #divHeadFooter li:first-child{
     
 /*          ÎÊÍÎ ÊÎÐÇÈÍÀ  */
 #divBasket{
+    display: none;
+    position: fixed;/*absolute*/;
     width: 480px;
     height: 375px;
     background-color: white;
+    z-index: 900;
    
 }   
 #divBasket #divProductInBasket{
@@ -950,7 +953,7 @@ footer #divHeadFooter li:first-child{
 #divBasket .infoProductInBasket{
     margin-left: -25px;
 }
-#divTotalbBasket{
+#divTotalBasket{
     position: relative;
     width: 480px;
     height: 91px;
@@ -1022,9 +1025,12 @@ footer #divHeadFooter li:first-child{
 /* ÌÎÄÀËÜÍÎÅ ÎÊÍÎ ÎÔÎÐÌËÅÍÈÅ ÇÀÊÀÇÀ */
 
 #divPlacingOrder{
+    display: none;
+    position: absolute;
     width: 580px;
     height: 902px;  
-   /* background-color: #dddddd;*/
+    background-color: white;
+    z-index: 900;
 }
 #divPlacingOrderCont{
     margin: 40px;
@@ -1183,6 +1189,9 @@ footer #divHeadFooter li:first-child{
  /*   height: 50px;*/
 }
 /* ÔÐÀÌÅ 1*/
+#divSelectionFrame1{
+    display: none;
+}
 #divSelectionFrame1 #divSizeSelectFlex{
     display: flex;
     gap: 100px;
@@ -1195,6 +1204,9 @@ footer #divHeadFooter li:first-child{
 }
 
 /* ÔÐÀÌÅ 2*/
+#divSelectionFrame2{
+    display: none;
+}
 #divSelectionFrame2 textarea{
     resize: none;
     width: 465px;
@@ -1226,7 +1238,9 @@ footer #divHeadFooter li:first-child{
 }
 
 /* ÔÐÀÌÅ 3*/
-
+#divSelectionReady{
+    display: none;
+}
 #divSelectionReady .divSelectionFrameCont>h2{
     margin-top: 80px;
 }
