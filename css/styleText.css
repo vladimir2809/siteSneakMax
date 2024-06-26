@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: 'Roboto Slab';
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+.small{
+    /*//styleName: Small/Small regular text;*/
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    color: #939699;
+
+
+}
+.smallBold{
+    /*//styleName: Small/Small bold text;*/
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: left;
+    color:#262D33;
+
+}
+.medium{
+    /*//styleName: Medium/Medium regular text;*/
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #4B5157;
+
+
+}
+.mediumBold{
+ /*   //styleName: Medium/Medium bold text;*/
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+    color: #262D33;
+}
+.large{
+    //styleName: Large/Large regular text;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+
+}
+.headline1{
+    //styleName: Headline/Headline 1;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: left;
+
+}
+.headline2{
+    //styleName: Headline/Headline 2;
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+
+}
+.headline3{
+    //styleName: Headline/Headline 3;
+    font-family: "Roboto Slab";
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+
+}
+.headline4{
+    //styleName: Headline/Headline 4;
+    font-family:/* Lato*/"Roboto Slab";
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+
+}
+.headline5{
+    //styleName: Headline/Headline 5;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+
+}
+.headline5UP{
+    //styleName: Headline/Headline 5 uppercase;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+.headline6UP{
+    //styleName: Headline/Headline 6 uppercase;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+.category{
+    //styleName: Category;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
